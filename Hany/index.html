@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/slidebar.css" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Basic Dashboard</div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Employee</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <!-- <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button> -->
+        <a href="" id="menu-toggle"><i class="material-icons">arrow_back</i><i class="material-icons">arrow_forward</i></a>
+        <!-- <a href="" id="menu-toggle"><i class="material-icons">arrow_forward</i></a> -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link text-danger" href="#" ><i class="material-icons">message</i></a>
+               </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="material-icons">person</i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <h1 class="mt-4">Employee</h1>
+        <div class="container mt-5">
+          <div class="col s12 m6 l6 xl6">
+           <table class="table table-bordered table-striped bg-dark text-light">
+         <thead>
+          <tr>
+              <th>#</th>
+              <th>First</th>
+              <th>Last</th>
+              <th>Handle</th>
+              <th>Action</th>
+          </tr>
+         </thead>
+        
+        <tbody>
+          <tr>
+              <td>1</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@twitter</td>
+              <td>
+             <a href="" class="text-danger"><i class="material-icons">delete</i></a>
+             <a href="" class="text-primary"><i class="material-icons">create</i></a>
+             <a href="" class="text-info"><i class="material-icons">visibility</i></a>
+              
+             </td>
+          </tr>
+          <tr>
+              <td>2</td>
+               <td>hany</td>
+               <td>Thornton</td>
+               <td>@hany</td>
+               <td>
+                 <a href="" class="text-danger"><i class="material-icons">delete</i></a>
+                 <a href="" class="text-primary"><i class="material-icons">create</i></a>
+                 <a href="" class="text-info"><i class="material-icons">visibility</i></a>
+                  
+           </td>
+           </tr>
+           <tr>
+              <td>3</td>
+               <td>chanthy</td>
+               <td>Thornton</td>
+               <td>@chanthy</td>
+               <td>
+                 <a href="" class="text-danger"><i class="material-icons">delete</i></a>
+                 <a href="" class="text-primary"><i class="material-icons">create</i></a>
+                 <a href="" class="text-info"><i class="material-icons">visibility</i></a>
+                  
+           </td>
+           </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+</body>
+
+</html>
